@@ -1,0 +1,16 @@
+
+package lab4;
+
+public class Q1 {
+    
+
+    public static void main(String arg[])
+    {
+        System.out.println("ISHU KUMAR");
+        System.out.println("2006270");
+        System.out.println("IT-04");
+        System.out.println("Information Technology");
+    }
+    
+
+}
