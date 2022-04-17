@@ -1,0 +1,23 @@
+package lab7;
+import java.util.Scanner;
+
+class Sheet2D {
+int length, breadth; void get2D(int l, int b) {
+length = l; breadth = b;
+}
+void calculate() {
+System.out.println("2D Sheet Price = " + (length * breadth * 40));
+}}
+class Box3D extends Sheet2D { int height;
+void get3D() { height = 6;
+}
+void calculate() {
+System.out.println("3D Sheet Price = " + (length * breadth * height * 60));
+}}
+class q1 {
+public static void main(String[] args) { Scanner input = new Scanner(System.in); Sheet2D s2 = new Sheet2D(); s2.get2D(8, 5);
+s2.calculate();
+Box3D b3 = new Box3D(); b3.get2D(10, 4);
+b3.get3D(); b3.calculate(); input.close();
+}
+}
